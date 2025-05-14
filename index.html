@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Card</title>
+  <style>
+    body {
+      font-family:'Times New Roman', Times, serif;
+      background:whitesmoke;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background:skyblue;
+      border-radius: 16px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      padding: 2rem;
+      max-width: 350px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .card h2 {
+      margin: 0.5rem 0;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #555;
+      transition: color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: #0077b5; /* LinkedIn Blue as hover effect */
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="a.jpg" alt="Your Name">
+    <h2>Adhilaxmi Bamani</h2>
+    <p>I'm a web developer passionate about crafting responsive and modern user experiences. Let's connect!</p>
+    <div class="social-links">
+      <a href="https://twitter.com" target="_blank">🐦</a>
+      <a href="https://linkedin.com" target="_blank">🔗</a>
+      <a href="https://github.com" target="_blank">💻</a>
+    </div>
+  </div>
+</body>
+</html>
